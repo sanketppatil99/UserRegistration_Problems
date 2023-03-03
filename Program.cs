@@ -5,16 +5,16 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to User Registration Problem");
-            Console.Write("Enter The Email:");
-            String email = Console.ReadLine();
+            Console.Write("Enter The Mobile Number : ");
+            String MobileNumber = Console.ReadLine();
 
-            if (DetailCheck.Validate(email))
+            if (DetailCheck.Validate(MobileNumber))
             {
-                Console.WriteLine("Valid Name");
+                Console.WriteLine("Valid Mobile Number");
             }
             else
             {
-                Console.WriteLine("Invalid Name");
+                Console.WriteLine("Invalid Mobile number");
             }
         }
     }
