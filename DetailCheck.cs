@@ -9,7 +9,7 @@ namespace UserRegistrationProblem
 {
     public class DetailCheck
     {
-        public static string reg = "^[a-z0-9]{8}$";
+        public static string reg = "(?=.*[A-Z]).{8}";
 
         public static bool Validate(String word)
         {
