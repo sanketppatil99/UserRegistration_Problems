@@ -9,7 +9,7 @@ namespace UserRegistrationProblem
 {
     public class DetailCheck
     {
-        public static string reg = "^[A-Z][A-za-z]{2,}";//check last name valid or not
+        public static string reg = "^[A-Za-z0-9]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}$";
 
         public static bool Validate(String word)
         {
