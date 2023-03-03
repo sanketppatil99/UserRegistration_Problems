@@ -5,10 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to User Registration Problem");
-            Console.WriteLine("Enter the first name");
-            String FName = Console.ReadLine();
+            Console.WriteLine("Enter the Last name");
+            String LName = Console.ReadLine();
 
-            if (DetailCheck.Validate(FName))
+            if (DetailCheck.Validate(LName))
             {
                 Console.WriteLine("Valid Name");
             }
