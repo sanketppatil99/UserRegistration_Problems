@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to User Registration Problem");//upper case valid
+            Console.WriteLine("Welcome to User Registration Problem");//One numricvalue valid
             Console.Write("Enter the Password : ");
             String Password = Console.ReadLine();
 
